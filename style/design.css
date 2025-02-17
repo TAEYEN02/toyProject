@@ -1,0 +1,19 @@
+#login{background: aqua; width: 600px; margin:auto;}
+#login h1 , #login h2{text-align: center;}
+#login h1 img{width: 100px;}
+#login h2{}
+#login #login_frm{background:lime;}
+#login #login_frm fieldset{}
+#login #login_frm fieldset ul{}
+#login #login_frm fieldset ul li{}
+#login #login_frm fieldset ul li input[name="user_id"] {}
+#login #login_frm fieldset ul li a{}
+#login #login_frm fieldset .bottom{}
+#login #login_frm fieldset .bottom .join{}
+#login #login_frm fieldset .bottom #next_btn{}
+#login footer{background: yellow;}
+#login footer #lang_select{}
+#login footer #lang_select option{}
+#login footer .right{}
+#login footer .right a{}
+
