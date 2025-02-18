@@ -1,19 +1,60 @@
-#login{background: aqua; width: 600px; margin:auto;}
-#login h1 , #login h2{text-align: center;}
-#login h1 img{width: 100px;}
-#login h2{}
-#login #login_frm{background:lime;}
+#login{
+    width: 600px;
+    margin:auto;
+}
+#login h1 , #login h2{
+    text-align: center;
+}
+#login h1{
+    margin-top: 30px;
+    font-size: 30px; 
+}
+#login h1 img{
+    width: 200px;
+}
+#login h2{
+    font-size: 20px;
+}
+#login #login_frm{text-align: left;}
 #login #login_frm fieldset{}
-#login #login_frm fieldset ul{}
+#login #login_frm fieldset ul{margin-bottom: 30px;}
 #login #login_frm fieldset ul li{}
-#login #login_frm fieldset ul li input[name="user_id"] {}
-#login #login_frm fieldset ul li a{}
-#login #login_frm fieldset .bottom{}
-#login #login_frm fieldset .bottom .join{}
-#login #login_frm fieldset .bottom #next_btn{}
-#login footer{background: yellow;}
+#login #login_frm fieldset ul li input[name="user_id"] {
+    border:1px solid #aaa;
+    width: 100%; 
+    padding:15px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#login #login_frm fieldset ul li:nth-child(2){margin-bottom: 50px;}
+#login #login_frm fieldset ul li{line-height: 1.3;}
+#login #login_frm fieldset ul li a{
+    color:#1b73e9;
+}
+#login #login_frm fieldset .bottom{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#login #login_frm fieldset .bottom .join{
+    color:#1b73e9;
+}
+#login #login_frm fieldset .bottom #next_btn{
+    background: #1b73e9; color:white;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+#login footer{
+    margin-top: 100px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
 #login footer #lang_select{}
 #login footer #lang_select option{}
 #login footer .right{}
-#login footer .right a{}
-
+#login footer .right a{
+    color:#aaa;
+    margin-left :100px;
+}
+#login footer .right a:first-child {margin: 0;}
